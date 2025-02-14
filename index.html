@@ -22,6 +22,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'bg-grocery': '#179800',
               }
             }
           }
@@ -117,7 +118,7 @@
                   </div>
 
                 <!-- button div -->
-                  <div class="relative hidden lg:flex">
+                  <div class="relative hidden md:flex lg:flex">
                     <!-- search icon -->
                     <div>
                         <button class="btn btn-ghost btn-circle">
@@ -145,25 +146,89 @@
 
                     <!-- buttons -->
                      <div class="space-x-5">
-                        <a class="btn">Button</a>
-                        <a class="btn">Button</a>
+                        <a class="btn border-2 border-[#179800] w-30">Login</a>
+                        <a class="btn bg-[#179800] text-white">Register</a>
                      </div>
                   </div>
                 </div>
               </div>
          </nav>
          <!-- banner section -->
-          <section>
+          <section class="flex flex-col justify-center items-center">
+            <!-- text -->
+             <div class="my-10">
+                <h1 class="text-center font-semibold text-5xl my-10">Freshness <span class="text-[#179800]">You Can</span> <br>
+                    <span class="text-[#179800]">Count </span> On, Prices You’ll Love!</h1>
+                <p class="text-center text-xl font-medium text-[#111111]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+             </div>
 
+             <!-- image -->
+              <div class="">
+                <img src="c2-assets/hero-vegetables.png" alt="">
+              </div>
           </section>
     </header>
 
     <main class="relative">
         <!-- secrive section -->
-        <section></section>
+        <section class="my-16 container mx-auto">
+            <div>
+                <h2 class="text-[#179800] font-semibold text-4xl pb-5 px-10 ">Services</h2>
+            </div>
+            <!-- cards -->
+            <div class="flex flex-col px-10 gap-10 md:flex-row">
+                <!-- card 1 -->
+                    <div class="card bg-base-100 w-96 bg-[#EFEBE3]">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="c2-assets/service.png"
+                            alt="Shoes"
+                            class="rounded-full bg-white p-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">24/7 Services</h2>
+                          <p class="text-gray-600">Our Services are open seven days in a week and 24 hours in a day. You can purchase anytime.</p>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="card bg-base-100 w-96 bg-[#EFEBE3]">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="c2-assets/delivery.png"
+                            alt="Shoes"
+                            class="rounded-full bg-white p-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Fast Delivery</h2>
+                          <p class="text-gray-600">Alhamdulillah! we can provide a Fast Delivery Service. You don't need to wait too much for your order. </p>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="card bg-base-100 w-96 bg-[#EFEBE3]">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="c2-assets/healthy.png"
+                            alt="Shoes"
+                            class="rounded-full bg-white p-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Healthy Products</h2>
+                          <p class="text-gray-600">We concern about your healthy life and try to ensure purity of pur product.You can trust on us. </p>
+                        </div>
+                    </div>
+             </div>
+        </section>
 
         <!-- popular product section -->
-        <section></section>
+        <section class="bg-[#EFEBE3] w-full h-20 p-20">
+            <h2 class="font-semibold text-4xl text-[#179800]">Popular Products</h2>
+            <!-- green card -->
+            <div>
+
+            </div>
+        </section>
 
         <!-- arrival & offers section -->
         <section></section>
