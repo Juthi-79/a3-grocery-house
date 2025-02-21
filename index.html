@@ -43,7 +43,7 @@
 <body class="font-sora">
     <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
         <!-- navbar section -->
-         <nav class="px-20 py-2">
+         <nav class="px-20 py-2 flex justify-between border-b-2 border-b-green-700 lg:border-hidden">
             <div class="navbar">
                 <!-- icon -->
                 <div class="navbar-start">
@@ -152,7 +152,7 @@
               </div>
          </nav>
          <!-- banner section -->
-          <section class="flex flex-col justify-center items-center">
+          <section class="flex flex-col justify-center items-center px-2">
 
             <!-- animation part -->
             <div class="flex">
@@ -227,12 +227,11 @@
         </section>
 
         <!-- popular product section -->
-        <section class="bg-[#EFEBE3] w-full h-[1300px] lg:h-[600px] p-10 lg:p-20">
+        <section class=" bg-[#EFEBE3] w-full h-[1400px] lg:h-[1300px] lg:h-[600px] p-10 lg:p-20">
             <h2 class="font-semibold text-4xl text-[#179800] mb-10 ">Popular Products</h2>
             <div class="flex flex-col lg:flex-row gap-10">
                 <!-- green card -->
-            <div>
-                <div class="card bg-gradient-to-br from-green-500 to-green-50 w-96">
+            <div class="pr-5 card bg-gradient-to-br from-[#179800] to-green-50 lg:w-96">
                     <div class="card-body">
                       <h2 class="card-title text-white">30% off</h2>
                       <p>Discover a world of treats, toys, and essentials handpicked for</p>
@@ -245,8 +244,7 @@
                         src="c2-assets/vegetable-offer.png"
                         alt="Shoes" class="items-end h-52" />
                     </figure>
-                  </div>
-            </div>
+              </div>
 
             <!-- grid cards -->
              <div class="lg:w-[800px] h-28 grid grid-cols-2 lg:grid-cols-3  gap-5">
@@ -435,7 +433,7 @@
         </section>
 
         <!-- arrival & offers section -->
-        <section class="pb-5">
+        <section class="lg:pb-5">
             <div>
                 <h2 class="font-semibold text-3xl pt-8 pl-10 text-[#179800]">Arrival & Offers</h2>
             </div>
@@ -443,40 +441,42 @@
             <!-- cards -->
              <div class="lg:flex">
              <!-- green card -->
-             <div class="bg-green-900 w-3/5 m-10 p-10 rounded-2xl flex">
+             <div class="bg-green-900 lg:w-3/5 p-5 m-5 lg:m-10 lg:p-10
+             lg:pb-24 rounded-2xl flex">
               <!-- text -->
                <div>
-                  <img src="c2-assets/dawat-logo.png" alt="" class="mb-5">
-                  <button class="bg-green-500 text-white py-3 px-6 rounded-xl ml-5">Cook Exotic Dishes</button>
-                  <h2 class="text-white text-2xl mt-5 ml-5">UP to <span class="font-bold">20% OFF</span></h2>
+                  <img src="c2-assets/dawat-logo.png" alt="" class="mb-5 w-40">
+                  <button class="bg-green-500 text-white text-sm px-2 w-48 py-3 lg:px-6 rounded-xl ml-2">Cook Exotic Dishes</button>
+                  <h2 class="text-white text-2xl mt-5 ml-2">UP to <span class="font-bold">20% OFF</span></h2>
                </div>
 
                <!-- picture -->
                 <div>
-                  <img class="ml-14 w-72" src="c2-assets/dawat-mock-up.png" alt="">
+                  <img class="ml-2 mt-4 w-72" src="c2-assets/dawat-mock-up.png" alt="">
                 </div>
            </div>
 
            <!-- blue card -->
-           <div class="bg-blue-950 w-3/5 m-10 p-10 rounded-2xl flex">
+           <div class="bg-blue-950 lg:w-3/5 p-5 m-5 lg:m-10 lg:p-10
+           lg:pb-24 rounded-2xl flex">
             <!-- text -->
              <div>
                 <img src="c2-assets/india-gate-logo.png" alt="" class="mb-5">
-                <button class="bg-blue-700 text-white py-3 px-6 rounded-xl ml-5">World's No.1 Rice</button>
-                <h2 class="text-white text-2xl mt-5 ml-5">UP to <span class="font-bold">40% OFF</span></h2>
+                <button class="bg-blue-700 text-white text-sm px-2 w-48 py-3 lg:px-6 rounded-xl ml-2">World's No.1 Rice</button>
+                <h2 class="text-white text-2xl mt-5 ml-2">UP to <span class="font-bold">40% OFF</span></h2>
              </div>
 
              <!-- picture -->
               <div>
-                <img class="size-60 ml-14 w-44" src="c2-assets/india-gate-mock-up.png" alt="">
+                <img class="ml-8 mt-4 w-28 lg:size-60 lg:ml-14 lg:w-44" src="c2-assets/india-gate-mock-up.png" alt="">
               </div>
          </div>
              </div>
         </section>
 
         <!-- customers' review section (challenging part) -->
-        <section class="mb-60 bg-[#EFEBE3] pt-10 pl-10">
-          <h3 class="text-3xl font-semibold text-[#179800] ml-10">Clients' Review</h3>
+        <section class=" bg-[#EFEBE3] pt-10 pl-5 lg:pl-10">
+          <h3 class="text-3xl font-semibold text-[#179800] lg:ml-10">Clients' Review</h3>
           <!-- cards -->
            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <!-- card-1 -->
@@ -595,7 +595,7 @@
          </section>
 
         <!-- get grocery news section -->
-        <section class="absolute left-20 lg:left-48 -bottom-[420px] bg-[#EFEBE3] lg:flex rounded-xl px-10">
+        <section class="relative -bottom-48 w-11/12 lg:w-8/12 mx-auto bg-[#EFEBE3] lg:flex rounded-xl px-10">
           <!-- picture -->
            <div>
             <img class="justify-center items-center mt-5 md:m-10 h-60 w-64 md:h-72 md:w-80" src="c2-assets/vegetable-busket.png" alt="">
@@ -605,7 +605,7 @@
             <div class="p-10">
               <h2 class="text-[#179800] lg:text-black text-3xl font-bold lg:my-5 lg:pt-5">Get Grocery News!</h2>
               <p class="mb-5">Exclusive training tips, ticks, product deals and more.</p>
-              <div><input class="py-3 pl-3 pr-28 rounded-md opacity-70" type="email" placeholder="Enter email..."></div>
+              <div><input class="w-full lg:py-3 lg:pl-3 lg:pr-28 rounded-md opacity-70" type="email" placeholder="Enter email..."></div>
               <div><button class="bg-[#179800] text-white font-extralight py-2 px-6 rounded-lg mt-8">Subscribe</button></div>
             </div>
         </section>
